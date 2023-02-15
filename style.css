@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'TIMERfont';
+    src: url(fonts/CursedTimerUlil-Aznm.ttf);
+  }
+  
+
+body {
+    margin: 0;
+    background:#1B244A;
+
+     
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center
+}
+
+.score-card{
+    padding: 20px;
+    border: 2px solid #0369A1;
+    border-radius: 10px;
+    color:#F94F6D;
+    font-family: "TIMERfont", Calibri, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 450%;
+
+}
+
+.buttons{
+    margin-top:40px;
+}
+.buttons button {
+    border: 2px solid #0369A1;
+    border-radius: 10px;
+    background-color: #1B244A;
+    color: white;
+    font-size: 140%;
+}
+
+h3{
+    margin-bottom: 40px;
+    color: white;
+    font-size: 200%;
+}
+
+#reset{
+    
+    display: block;
+    padding: 11px;
+    margin:30px auto 0 auto;
+    border: 2px solid #0369A1;
+    color: white;
+    border-radius: 20px;
+    background-color: #1B244A;
+    font-size: 100%;
+
+}
